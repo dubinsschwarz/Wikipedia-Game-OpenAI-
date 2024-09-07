@@ -1,5 +1,5 @@
 # Wikipedia-Game-OpenAI-
-The code here allows an LLM from OpenAI to automatically play the Wikipedia game "[5 Clicks to Jesus]([url](https://en.wikipedia.org/wiki/Wikipedia:Wiki_Game#:~:text='5%2DClicks%2Dto%2D,'%20and%20'birdies'%20respectively.))". I am sure that a more experienced programmer could have coded it all in under an hour.
+The code here allows an LLM from OpenAI to automatically play the Wikipedia game "[5 Clicks to Jesus]([url](https://en.wikipedia.org/wiki/Wikipedia:Wiki_Game))". I am sure that a more experienced programmer could have coded it all in under an hour.
 
 It will require a functional OpenAI API key and the prior installation of the following modules:
 - selenium
