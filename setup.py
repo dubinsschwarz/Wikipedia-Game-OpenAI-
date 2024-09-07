@@ -48,7 +48,7 @@ def game():
             model = model_name,
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": "Hi there, we're in the middle of a round of the Wikipedia game of 5 Clicks to Jesus."},
+                {"role": "user", "content": "Hi there, we're in the middle of a round of the Wikipedia game of 5 Clicks to the page for Jesus."},
                 {"role": "assistant", "content": "Am I the one playing?"},
                 {"role": "user", "content": "Yes, exactly. I'll give you the name of the page we're currently on,\
                 as well as a list of the available links. Think carefully about which one is likely to be the best to get to Jesus,\
@@ -57,7 +57,7 @@ def game():
                 {"role": "user", "content": "Yes, please. Could you preface the name you pick with double dollars ('$$')\
                 and not add any characters afterwards please? And feel free to think out loud. Thanks!"},
                 {"role": "assistant", "content": "Okay, no problem. I'll make sure to do that. I'm ready."},
-                {"role": "user", "content": "Glad to hear it! Here's the information. Good luck!" + outstring}
+                {"role": "user", "content": "Glad to hear it! Here's the information. Good luck! " + outstring}
         
             ]
         )
