@@ -5,7 +5,7 @@ It will require a functional OpenAI API key and the prior installation of the fo
 - selenium
 - openai
 
-The program is fairly sluggish as it is lumberingly slow to scrape all of the links from the active Wikipedia page.
+The program is fairly sluggish as it is lumberingly slow to scrape all of the links from the active Wikipedia page. (On average, one round will take about 5 minutes.)
 
 Feel free to suggest or make improvements.
 
