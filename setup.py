@@ -1,4 +1,3 @@
-#DO NOT RUN UNLESS THE MODEL_NAME IS SET TO 'gpt-4o-mini' OR YOU WANT TO SPEND QUITE A LOT OF MONEY
 model_name = 'gpt-4o-mini'
 
 #The code below sets up everything. Run the game by calling game().
