@@ -1,5 +1,7 @@
-#DO NOT RUN UNLESS THE MODEL_NAME IS SET TO 'gpt-4o-mini' OR YOU WANT TO SPEND QUITE A LOT OF MONEY!
+#DO NOT RUN UNLESS THE MODEL_NAME IS SET TO 'gpt-4o-mini' OR YOU WANT TO SPEND QUITE A LOT OF MONEY
 model_name = 'gpt-4o-mini'
+
+#The code below sets up everything. Run the game by calling game().
 
 land_id = 'Jesus'
 land_url = 'https://en.wikipedia.org/wiki/Jesus'
@@ -13,6 +15,7 @@ import re
 import os
 import openai
 
+#I use Microsoft Edge.
 driver = webdriver.Edge()
 driver.get('https://en.wikipedia.org/wiki/Main_Page')
 
@@ -27,7 +30,9 @@ def clean(string):
 
 from openai import OpenAI
 client = OpenAI(api_key = os.getenv("OPENAI_API_KEY"))
+#The API key should be stored as an environment variable.
 
+#The user can pass in the name of the target, the URL of the target, and the starting URL as optional parameters.
 def game(land_id = land_id, land_url = land_url, start_url = '###'):
     
     if start_url == '###':
